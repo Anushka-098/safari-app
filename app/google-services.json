@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "121798880326",
+    "project_id": "safari-job-app",
+    "storage_bucket": "safari-job-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121798880326:android:bf85cce583d39f30f56e47",
+        "android_client_info": {
+          "package_name": "com.example.safariapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121798880326-ol4f8m3vtgdgg7de3gkr9omek2h7gnk4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safariapp",
+            "certificate_hash": "d8979d30f286fc1eb29f2b9d0b24a68c2dbdb448"
+          }
+        },
+        {
+          "client_id": "121798880326-71pntif0q343e9g8ecsoig634cehmvk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9NaEa7yoWUC7MLYytAWJGdAmajYftlBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121798880326-71pntif0q343e9g8ecsoig634cehmvk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

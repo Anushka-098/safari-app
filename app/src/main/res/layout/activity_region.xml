@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Image or Illustration -->
+    <ImageView
+        android:id="@+id/region_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/globe"
+        />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/confirm_region_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm your region"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/confirm_region_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your country from the list below. You can update this setting anytime in your app preferences."
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+    <!-- Country Spinner -->
+    <Spinner
+        android:id="@+id/country_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Complete Button -->
+    <Button
+        android:id="@+id/complete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

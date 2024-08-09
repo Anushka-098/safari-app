@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Safari App</string>
+
+        <string name="globe_image">Globe Image</string>
+
+        <string-array name="country_names">
+            <item>United States</item>
+            <item>India</item>
+            <item>Canada</item>
+            <item>Australia</item>
+            <item>United Kingdom</item>
+            <item>Germany</item>
+            <item>France</item>
+            <item>Japan</item>
+            <item>China</item>
+            <item>Brazil</item>
+            <!-- Add more countries as needed -->
+        </string-array>
+    </resources>
